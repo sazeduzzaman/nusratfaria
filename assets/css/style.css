@@ -21201,6 +21201,7 @@ body.loaded {
   width: 100%;
   object-fit: cover;
   transition: var(--transition);
+  height: 450px;
 }
 .latest-portfolio-card:hover .portfoli-card-img img {
   transform: scale(1.03);
