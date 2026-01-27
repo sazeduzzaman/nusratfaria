@@ -270,7 +270,7 @@
 
     // sticky header activation
     menuCurrentLink: function () {
-      var currentPage = location.pathname.split("/"),
+      var currentPage = location.pathname.split(index.html),
         current = currentPage[currentPage.length - 1];
       $(".tmp-mainmenu li a").each(function () {
         var $this = $(this);
